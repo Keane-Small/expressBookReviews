@@ -1,0 +1,21 @@
+curl http://localhost:5000/books/author/Chinua%20Achebe
+
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : [{"isbn":"1","author":"Chinua Achebe","title":"Things Fall Apart","reviews":{}}]
+RawContent        : HTTP/1.1 200 OK
+                    Connection: keep-alive
+                    Keep-Alive: timeout=5
+                    Content-Length: 80
+                    Content-Type: application/json; charset=utf-8
+                    Date: Sun, 22 Feb 2026 15:03:36 GMT
+                    ETag: W/"50-9uY5CNAasdaiPCqxHd8K...
+Forms             : {}
+Headers           : {[Connection, keep-alive], [Keep-Alive, timeout=5], [Content-Length, 80], [Content-Type, application/json;
+                    charset=utf-8]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : System.__ComObject
+RawContentLength  : 80
